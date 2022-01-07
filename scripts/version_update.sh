@@ -13,4 +13,4 @@ lib+=$branch
 echo $lib
 
 cd ..
-npm intsall $lib
+npm install $lib
