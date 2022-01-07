@@ -12,6 +12,5 @@ lib+=$branch
 
 echo $lib
 
-cd ..
 npm install $lib
 node index.js
