@@ -24,5 +24,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - name: Update tag
+      run: ./scripts/version_update.sh  
     - run: npm ci
     - run: npm test
