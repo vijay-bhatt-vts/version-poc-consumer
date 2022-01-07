@@ -1,0 +1,22 @@
+{
+  "name": "version-poc-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijay-bhatt-vts/version-poc-consumer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vijay-bhatt-vts/version-poc-consumer/issues"
+  },
+  "homepage": "https://github.com/vijay-bhatt-vts/version-poc-consumer#readme",
+  "dependencies": {
+    "version-poc1": "^1.16.0-main.3"
+  }
+}
