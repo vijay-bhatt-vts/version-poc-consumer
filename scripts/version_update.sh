@@ -17,6 +17,6 @@ then
     npm install lib
     node index.js
 else
-    npm install libtag
+    npm install $libtag
     node index.js
 fi
