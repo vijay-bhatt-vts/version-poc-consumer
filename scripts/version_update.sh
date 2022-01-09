@@ -5,8 +5,6 @@ set -e
 echo $GITHUB_REF
 branch=${GITHUB_REF##*/}
 
-echo $branch
-
 lib='version-poc1'
 lib@='version-poc1@'
 lib@+=$branch
