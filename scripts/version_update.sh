@@ -7,10 +7,18 @@ branch=${GITHUB_REF##*/}
 
 echo $branch
 
-lib='version-poc1@'
-lib+=$branch
+lib='version-poc1'
+lib@='version-poc1@'
+lib@+=$branch
 
-echo $lib
+echo $lib@
 
-npm install $lib
-node index.js
+main="main"
+if [ "$branch" == "$main" ] 
+then
+    npm install lib
+    node index.js
+else
+    npm install lib@
+    node index.js
+fi
