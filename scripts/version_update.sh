@@ -6,10 +6,10 @@ echo $GITHUB_REF
 branch=${GITHUB_REF##*/}
 
 lib='version-poc1'
-lib@='version-poc1@'
-lib@+=$branch
+libtag='version-poc1@'
+libtag+=$branch
 
-echo $lib@
+echo $libtag
 
 main="main"
 if [ "$branch" == "$main" ] 
@@ -17,6 +17,6 @@ then
     npm install lib
     node index.js
 else
-    npm install lib@
+    npm install libtag
     node index.js
 fi
