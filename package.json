@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/vijay-bhatt-vts/version-poc-consumer#readme",
   "dependencies": {
-    "version-poc1": "^1.16.0-main.3"
+    "version-poc1": "^6.0.0"
   }
 }
